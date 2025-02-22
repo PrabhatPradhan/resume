@@ -1,0 +1,71 @@
+.top-heding{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.top-heding input{
+    height: 2.5rem;
+    width: 24rem;
+    border-radius: .5rem;
+    border: none;
+}
+.search{
+
+    border: 2px solid black;
+
+    border-radius: .5rem;
+}
+.cards{
+    display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding: 20px;  
+}
+.mid{
+    display: flex;
+     
+    
+    justify-content: center;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: .2rem;
+    margin-top: 2rem;
+    background-color: rgb(104, 229, 238);
+}
+.card img{
+    height: 12rem;
+    width: 16rem;
+    border-radius: .2rem;
+}
+ 
+ 
+
+.hot-deals {
+    margin-bottom: 2rem;
+    padding: 20px;
+  }
+  .hot-deals h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+.swiper {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+  }
+  .swiper-slide {
+    background: #fff;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  .swiper-slide img {
+    width: 100%;
+    border-radius: 8px;
+  }
